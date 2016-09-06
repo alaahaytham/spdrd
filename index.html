@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speed Reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6625ac1f3ee0a12250227cf83ce904423abf351/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png"></a>
+    <div class="container">
+        <div class="row speed-article">
+            <div class="col-lg-12 text-center">
+                <div id="spritz" class="spritz">
+                    <div id="spritz_word" class="spritz-word"></div>
+                </div>
+                <div id="spritz_progress" class="progress-bar"></div>
+                <div class="settings alert-success alert">
+                    <div class="controls settings-controls">
+                        <span class="speed"><a id="spritz_slower" href="#" title="Slow Down" class="slower entypo-fast-backward"></a>
+                          <input id="spritz_wpm" type="number" value="300" step="50" min="50" class="wpm"/><label id="wpm">/ WPM</label><a id="spritz_faster" href="#" title="Speed Up" class="faster entypo-fast-forward"></a></span>
+                        <span class="interaction"><a id="spritz_pause" href="#" title="Pause/Play" class="pause entypo-pause"></a></span>
+                        <div class="zoom">
+                            <a id="spritz_smaller" href="#" title="Smaller" class="smaller entypo-minus"></a>
+                            <a id="spritz_bigger" href="#" title="Bigger" class="bigger entypo-plus"></a>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="words">
+                    <div id="image-display"></div>
+                    <div id="spritz_words" class="demo-words">
+                        <h2>{{The Fox and the Crow}}</h2>
+                        {'images/1.jpg'}
+                        <p>One day, Neelam the crow was flying over the trees. She was hungry. She was looking for something to eat. She found a piece of cheese under a tree. “How lucky I am!” said Neelam to herself.</p>
+                        {'images/2.jpg'}
+                        <p>She picked up the piece of cheese with her beak and flew to the top of the tree. “I shall eat this piece of cheese slowly,” said Neelam to herself. “I have not eaten cheese for a long time. I love cheese.”</p>
+                        {'images/3.jpg'}
+                        <p>Foxy the fox was walking near the tree. He too was hungry. “I have not eaten anything all day. I am so hungry. I hope I find something to eat,” thought Foxy.</p>
+                        {'images/4.jpg'}
+                        <p>Foxy saw Neelam sitting on the tree and he also saw the cheese.</p>
+                        {'images/5.jpg'}
+                        <p>“I must get that piece of cheese from Neelam. But Neelam is very clever. I have to make Neelam drop the cheese.”</p>
+                        {'images/6.jpg'}
+                        <p>Foxy thought of a plan. He went to the tree where Neelam was sitting and said, “Oh, what a beautiful bird you are! I am sure you have a beautiful voice too. Why don’t you sing for me?”</p>
+                        {'images/7.jpg'}
+                        <p>Neelam was very happy when she heard these words. She forgot the cheese was in her mouth. She opened her mouth to crow and the cheese fell out.</p>
+                        {'images/8.jpg'}
+                        <p>Foxy ate the cheese. He laughed at Neelam and said, “You have an ugly voice. I only wanted the cheese. You are a fool!”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="row">
+                      <p>Story credit from <a href='http://hubpages.com/literature/Short-stories-for-kids-with-pictures'>here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
