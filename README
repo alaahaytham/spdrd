@@ -6,16 +6,16 @@ Speed reading can be boring, and sometimes rather unfulfilling especially when p
 
 
 Usage
--------------
+===================
 
 Headlines
+---------
 Headlines are supposed to skip the speed reading experience, its better to see them in on line rather than broken down to words - with the right pause time.
 To add a headline, wrap your title with {{  }} and an H2.
-
-    <h2>{{The Fox and the Crow}}</h2>
+<h2>{{The Fox and the Crow}}</h2>
 
 Photos
+------
 Images can be added anywhere in the articles, they appear and pause until the next image is available.
 To add an image, wrap your image path with {''}
-
-    {'images/5.jpg'}
+{'images/5.jpg'}
