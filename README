@@ -1,21 +1,10 @@
-SPDRD
-===================
+# SPDRD
 
-Speed reading can be boring, and sometimes rather unfulfilling especially when photos are essential to the story, so spdrd is just for that, add photos to speed reading experience.
+SPDRD is the next speed reading experience, because:
+  - It recognises heading tags and shows them as one word
+  - It sees images and shows them below the speed reader while giving more pause time to see them
 
-
-
-Usage
-===================
-
-Headlines
----------
-Headlines are supposed to skip the speed reading experience, its better to see them in on line rather than broken down to words - with the right pause time.
-To add a headline, wrap your title with {{  }} and an H2.
-<h2>{{The Fox and the Crow}}</h2>
-
-Photos
-------
-Images can be added anywhere in the articles, they appear and pause until the next image is available.
-To add an image, wrap your image path with {''}
-{'images/5.jpg'}
+## How to use
+- Wrap your paragraph like you normally do, with p tag
+- Wrap your images between {},  like {'images_path/image.jpg'}
+- Wrap your headings between {{}}, like {{Title here}}
